@@ -1,0 +1,35 @@
+ion-content {
+    max-width: 120px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: fixed;
+}
+a{
+    text-decoration: none;
+}
+ion-col{
+    width: 100%;
+    border-bottom: 2px solid #303030;
+}
+ion-label{
+    position: relative;
+    font-size: 11px;
+ 
+}
+.scroll{
+    height: 100%;
+    background-color: #1e1e1e;
+}
+ion-icon{
+    margin: auto;
+    width: 100%;
+    position: relative;
+    display: block;
+}
+ion-icon::selection{
+    color: #0f41cccd;
+}
+ion-item{
+    height: 100px;
+    border-bottom: 2px solid #303030;
+}
